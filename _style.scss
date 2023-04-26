@@ -1,0 +1,55 @@
+header {
+     @include felx;
+    .logo {
+        color: black;
+        font-size: $font;
+        .web {
+            color: $blus;
+        }
+    }
+    .nav{
+        .ul{
+            @include felx;
+            .li {
+                margin-left:$marginleft; 
+            }
+                .lia{
+                    color:$blus;
+                    font-size:$fonts;
+                }
+            }
+        }
+    }
+    .s1 {
+        .container {
+          @include cont(1170px, 100%, 0 auto);
+          @include felx ;
+        }
+        .h2 {
+            color: $gri;
+            font-size: 78px;
+            margin-top: 300px;
+        }
+        .h3 {
+            font-size: $fon;
+            color: $gri;
+            margin-top: 60px;
+            margin-bottom: 85px;
+
+        }
+        .but {
+            width: 100px;
+            background-color: $blus;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 23px;
+            border-radius: 10px;
+        }
+        img{
+            width: 501px;
+            height: 500px;
+        }
+
+    }

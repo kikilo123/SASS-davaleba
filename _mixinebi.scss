@@ -1,0 +1,10 @@
+@mixin felx{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+@mixin cont($maxwithe, $width, $margin) {
+    max-width: $maxwithe;
+    width: $width;
+    margin: $margin;
+}
